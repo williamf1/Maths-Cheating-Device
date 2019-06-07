@@ -15,7 +15,6 @@ o            o       o       o  o
 
 
 #login
-#we are going to login
 needspassword=True
 while needspassword==True:
 
