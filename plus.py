@@ -9,7 +9,7 @@ print("""
   o  o   o o        o        o   o
  o     o    o      o         o   o
 o            o       o       o  o
-                       o     o o     (for +)
+                       o     o o     (for addition)
 
 """)
 
@@ -35,7 +35,7 @@ while needspassword==True:
 #introduction
 print("  ")
 
-print("welcome to the maths cheating device (for +) ")
+print("welcome to the maths cheating device (for addition) ")
 
 print("  ")
 
