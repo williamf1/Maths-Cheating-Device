@@ -9,7 +9,7 @@ print("""
   o  o   o o        o        o   o
  o     o    o      o         o   o
 o            o       o       o  o
-                       o     o o     (for -)
+                       o     o o     (for subtraction)
 
 """)
 

@@ -9,7 +9,7 @@ print("""
   o  o   o o        o        o   o
  o     o    o      o         o   o
 o            o       o       o  o
-                       o     o o     (for multiplication)
+                       o     o o     (for the power of)
 
 """)
 
@@ -22,7 +22,7 @@ while needspassword==True:
   username=raw_input("username:")
   password=raw_input("password:")
 
-#repeat
+#userpass codes
   if username!="m c d" or password!="maths cheating device":
     print("   ")
     print ("incorrect username/password")
@@ -35,7 +35,7 @@ while needspassword==True:
 #introduction
 print("  ")
 
-print("welcome to the maths cheating device (for multiplication) ")
+print("welcome to the maths cheating device (for the power of) ")
 
 print("  ")
 
@@ -62,9 +62,9 @@ time.sleep(1)
 
 
 #input for calculator
-timest=raw_input("what timestable do you want?")
+base=raw_input("base  number?")
 
-loop=raw_input("up to what number?")
+power=raw_input("to the power of")
 
 
 
@@ -88,12 +88,12 @@ time.sleep(1)
 
 
 #calculator
-inttimest=int(timest)
+answer=int(base)
 
-for x in range(int(loop)+1) :
-  answer=inttimest*x
+for x in range(int(power)-1) :
+  answer=answer*int(base)
+print("answer"+str(answer))
 
-  print(str(x)+"x"+timest+"="+str(answer))
 
 
 
