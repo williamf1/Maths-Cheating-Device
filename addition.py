@@ -4,12 +4,12 @@ import time
 #start
 print("""   
 
-                             o o
-   o      o           o      o  o
-  o  o   o o        o        o   o
- o     o    o      o         o   o
-o            o       o       o  o
-                       o     o o     (for addition)
+                                    o o
+   o      o              o          o  o
+  o  o   o o           o            o   o
+ o     o    o         o             o   o
+o            o          o           o  o
+                          o         o o     (for addition)
 
 """)
 
