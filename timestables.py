@@ -14,13 +14,20 @@ o            o       o       o  o
 """)
 
 
+
+
+
 #login
 needspassword=True
 while needspassword==True:
 
+
+
   #username/password input
   username=raw_input("username:")
   password=raw_input("password:")
+
+
 
 #repeat
   if username!="m c d" or password!="maths cheating device":
@@ -35,13 +42,19 @@ while needspassword==True:
 #introduction
 print("  ")
 
+
 print("welcome to the maths cheating device (for multiplication) ")
+
 
 print("  ")
 
 
+
+
+
 #how to
 time.sleep(1)
+
 print("follow the instructions to get your answers")
 
 print("  ")
@@ -51,6 +64,7 @@ print("  ")
 
 #contact
 time.sleep(1)
+
 print("if you need help contact:ken.faulkner.gh@gmail.com")
 
 print("  ")
@@ -70,18 +84,25 @@ loop=raw_input("up to what number?")
 
 #waiting to give answers
 print("calculating. ")
+
 time.sleep(0.5)
 print("calculating.. ")
+
 time.sleep(0.5)
 print("calculating... ")
+
 time.sleep(0.5)
 print("calculating. ")
+
 time.sleep(0.5)
 print("calculating.. ")
+
 time.sleep(0.5)
 print("calculating... ")
+
 time.sleep(1)
 print("finished")
+
 time.sleep(1)
 
 
@@ -91,6 +112,7 @@ time.sleep(1)
 inttimest=int(timest)
 
 for x in range(int(loop)+1) :
+
   answer=inttimest*x
 
   print(str(x)+"x"+timest+"="+str(answer))
