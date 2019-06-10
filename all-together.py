@@ -156,14 +156,6 @@ def mcdpowerof()  :
   print("answer"+str(answer))
 
 
-
-
-
-
-
-
-
-
 def mcddivision()  :
   #for division
 
@@ -308,10 +300,6 @@ def mcddivision()  :
       print(str(x)+"-"+timest+"="+str(answer))
 
 
-
-
-
-
   def mcdaddition()  :
     #for addition
     
@@ -384,16 +372,6 @@ def mcddivision()  :
       print(str(x)+"+"+timest+"="+str(answer))
 
 
-
-
-
-
-
-
-
-
-
-#multiplication
 #start
 print("""   
 
