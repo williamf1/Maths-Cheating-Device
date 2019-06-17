@@ -4,12 +4,12 @@ import time
 #start
 print("""   
 
-                                    o o
-   o      o              o          o  o
-  o  o   o o           o            o   o
- o     o    o         o             o   o
-o            o          o           o  o
-                          o         o o     (for addition)
+                                                o o
+   o      o                  o                  o  o
+  o  o   o o               o                    o   o
+ o     o    o              o                    o   o
+o            o               o                  o  o
+                aths           o  heating       o o evice    (for addition)
 
 """)
 
@@ -22,8 +22,8 @@ while needspassword==True:
   username=raw_input("username:")
   password=raw_input("password:")
 
-#repeat
-  if username!="m c d" or password!="maths cheating device":
+#repeat incorrest or not
+  if username!="m c d" or password!="m c d":
     print("   ")
     print ("incorrect username/password")
   else:
@@ -63,6 +63,8 @@ time.sleep(1)
 
 #input for calculator
 timest=raw_input("what number do you want to plus by ")
+
+print("   ")
 
 loop=raw_input("up to what number?")
 

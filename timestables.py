@@ -30,7 +30,7 @@ while needspassword==True:
 
 
 #repeat
-  if username!="m c d" or password!="maths cheating device":
+  if username!="m c d" or password!="m c d":
     print("   ")
     print ("incorrect username/password")
   else:
