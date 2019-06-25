@@ -231,156 +231,161 @@ def mcddivision()  :
 
 
 
-  def mcdsubtraction()  :
-    #for subtracting
+def mcdsubtraction()  :
+  #for subtracting
 
 
 
-    #introduction
-    print("  ")
+  #introduction
+  print("  ")
 
-    print("welcome to the maths cheating device (for subtraction) ")
+  print("welcome to the maths cheating device (for subtraction) ")
 
-    print("  ")
-
-
-    #how to
-    time.sleep(1)
-    print("follow the instructions to get your answers")
-
-    print("  ")
+  print("  ")
 
 
+  #how to
+  time.sleep(1)
+  print("follow the instructions to get your answers")
 
-
-    #contact
-    time.sleep(1)
-    print("if you need help contact:ken.faulkner.gh@gmail.com")
-
-    print("  ")
-
-    time.sleep(1)
+  print("  ")
 
 
 
 
+  #contact
+  time.sleep(1)
+  print("if you need help contact:ken.faulkner.gh@gmail.com")
 
-    #input for calculator
-    timest=raw_input("what number do you want to minus by ")
+  print("  ")
 
-    loop=raw_input("up to what number?")
-
-
-
-    #waiting to give answers
-    print("calculating. ")
-    time.sleep(0.5)
-    print("calculating.. ")
-    time.sleep(0.5)
-    print("calculating... ")
-    time.sleep(0.5)
-    print("calculating. ")
-    time.sleep(0.5)
-    print("calculating.. ")
-    time.sleep(0.5)
-    print("calculating... ")
-    time.sleep(1)
-    print("finished")
-    time.sleep(1)
-
-
-
-
-    #calculator
-    inttimest=int(timest)
-
-    for x in range(int(loop)+1) :
-      answer=inttimest-x
-
-      print(str(x)+"-"+timest+"="+str(answer))
-
-
-  def mcdaddition()  :
-    #for addition
-    
-
-    
-
-
-
-    #introduction
-    print("  ")
-
-    print("welcome to the maths cheating device (for addition) ")
-
-    print("  ")
-
-
-    #how to
-    time.sleep(1)
-    print("follow the instructions to get your answers")
-
-    print("  ")
-
-
-
-
-    #contact
-    time.sleep(1)
-    print("if you need help contact:ken.faulkner.gh@gmail.com")
-
-    print("  ")
-
-    time.sleep(1)
+  time.sleep(1)
 
 
 
 
 
-    #input for calculator
-    timest=raw_input("what number do you want to plus by ")
+  #input for calculator
+  timest=raw_input("what number do you want to minus by ")
 
-    loop=raw_input("up to what number?")
-
-
-
-    #waiting to give answers
-    print("calculating. ")
-    time.sleep(0.5)
-    print("calculating.. ")
-    time.sleep(0.5)
-    print("calculating... ")
-    time.sleep(0.5)
-    print("calculating. ")
-    time.sleep(0.5)
-    print("calculating.. ")
-    time.sleep(0.5)
-    print("calculating... ")
-    time.sleep(1)
-    print("finished")
-    time.sleep(1)
+  loop=raw_input("up to what number?")
 
 
 
+  #waiting to give answers
+  print("calculating. ")
+  time.sleep(0.5)
+  print("calculating.. ")
+  time.sleep(0.5)
+  print("calculating... ")
+  time.sleep(0.5)
+  print("calculating. ")
+  time.sleep(0.5)
+  print("calculating.. ")
+  time.sleep(0.5)
+  print("calculating... ")
+  time.sleep(1)
+  print("finished")
+  time.sleep(1)
 
-    #calculator
-    inttimest=int(timest)
 
-    for x in range(int(loop)+1) :
-      answer=inttimest+x
 
-      print(str(x)+"+"+timest+"="+str(answer))
+
+  #calculator
+  inttimest=int(timest)
+
+  for x in range(int(loop)+1) :
+    answer=inttimest-x
+
+    print(str(x)+"-"+timest+"="+str(answer))
+
+
+
+
+
+
+
+def mcdaddition()  :
+  #for addition
+
+
+
+
+
+
+  #introduction
+  print("  ")
+
+  print("welcome to the maths cheating device (for addition) ")
+
+  print("  ")
+
+
+  #how to
+  time.sleep(1)
+  print("follow the instructions to get your answers")
+
+  print("  ")
+
+
+
+
+  #contact
+  time.sleep(1)
+  print("if you need help contact:ken.faulkner.gh@gmail.com")
+
+  print("  ")
+
+  time.sleep(1)
+
+
+
+
+
+  #input for calculator
+  timest=raw_input("what number do you want to plus by ")
+
+  loop=raw_input("up to what number?")
+
+
+
+  #waiting to give answers
+  print("calculating. ")
+  time.sleep(0.5)
+  print("calculating.. ")
+  time.sleep(0.5)
+  print("calculating... ")
+  time.sleep(0.5)
+  print("calculating. ")
+  time.sleep(0.5)
+  print("calculating.. ")
+  time.sleep(0.5)
+  print("calculating... ")
+  time.sleep(1)
+  print("finished")
+  time.sleep(1)
+
+
+
+
+  #calculator
+  inttimest=int(timest)
+
+  for x in range(int(loop)+1) :
+    answer=inttimest+x
+
+    print(str(x)+"+"+timest+"="+str(answer))
 
 
 #start
 print("""   
 
-                             o o
-   o      o           o      o  o
-  o  o   o o        o        o   o
- o     o    o      o         o   o
-o            o       o       o  o
-                       o     o o     (for all ones)
+                            o o
+    o      o         o      o  o
+  o  o   o o        o       o   o
+ o     o    o      o        o   o
+o            o     o        o  o
+                     o      o o     (for all ones)
 
 """)
 
@@ -393,63 +398,69 @@ while needspassword==True:
   username=raw_input("username:")
   password=raw_input("password:")
 
-#repeat
+  #repeat
   if username!="m c d" or password!="maths cheating device":
     print("   ")
     print ("incorrect username/password")
   else:
     needspassword=False
-  
-print("   ")
 
-print("   ")
+    print("   ")
 
-print("   ")
+    print("   ")
 
-print("   ")
+    print("   ")
 
-print("options")
+    print("   ")
 
-print("   ")
+    print("options")
 
-print("""multiplication
-power of
-division
-subtraction
-addition""")
+    print("   ")
 
-selection=raw_input("what type do you want to use")
+    print("type the number that is next to the option you want to choose")
 
-if selection=="multiplication"  :
-  mcdmultiplication()
+    print("   ")
 
+    print("""1.multiplication
+    2.power of
+    3.division
+    4.subtraction
+    5.addition
 
+    """)
 
+    selection=raw_input("what type do you want to use")
 
-
-if selection=="powerof"  :
-  mcdpowerof()
-
-
-
-
-
-if selection=="division"  :
-  mcddivision()
+    if selection=="1"  :
+      mcdmultiplication()
 
 
 
 
 
-if selection=="subtraction"  :
-  mcdsubtraction()
+    if selection=="2"  :
+      mcdpowerof()
+
+
+
+          
+
+    if selection=="3"  :
+      mcddivision()
 
 
 
 
 
-if selection=="addition"  :
-  mcdaddition()
+    if selection=="4"  :
+      mcdsubtraction()
+
+
+
+
+
+    if selection=="5"  :
+      mcdaddition()
 
 
 
