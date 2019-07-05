@@ -5,7 +5,8 @@ print("test multi")
 
 
 #input
-no1=raw_input("first number")
+
+no1=raw_input("1st number")
 
 no2=raw_input("times by")
 
